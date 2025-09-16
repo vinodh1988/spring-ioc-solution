@@ -25,3 +25,7 @@ public class CentralConfig {
 		return new Write();
 	}
 }
+/*
+ * 
+ * <bean id="copy" class="com.iocapp.Copy"></bean>
+ */

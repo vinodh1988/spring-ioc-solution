@@ -15,7 +15,7 @@ public class FirstIocSolutionApplication {
 				SpringApplication.run(FirstIocSolutionApplication.class, args);
 		
 		//System.out.println(ac.getDisplayName());
-		
+	/*	
 	  Task t= (Task)	ac.getBean("copy");
 	  Task t1= (Task)	ac.getBean("copy");
 	  Task t2= (Task)	ac.getBean("copy");
@@ -30,7 +30,7 @@ public class FirstIocSolutionApplication {
 	  
 	  System.out.println(t.hashCode());
 	  System.out.println(t1.hashCode());
-	  System.out.println(t2.hashCode());
+	  System.out.println(t2.hashCode());*/
 	}
 
 }
