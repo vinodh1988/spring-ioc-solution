@@ -14,11 +14,11 @@ public class Integration {
 	}
 	
 	@Autowired
-	@Qualifier("dc")
-	Activity activity;
+	//@Qualifier("dc")
+	Activity dc;
 	
 	@PostConstruct
 	public void doIt() {
-		activity.perform();
+		dc.perform();
 	}
 }
