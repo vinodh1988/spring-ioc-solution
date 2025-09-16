@@ -1,6 +1,7 @@
 package com.iocapp.system;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import jakarta.annotation.PostConstruct;
@@ -13,6 +14,7 @@ public class Integration {
 	}
 	
 	@Autowired
+	@Qualifier("dc")
 	Activity activity;
 	
 	@PostConstruct

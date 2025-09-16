@@ -1,10 +1,9 @@
 package com.iocapp.system;
 
-import org.springframework.context.annotation.Primary;
+
 import org.springframework.stereotype.Component;
 
-@Component
-@Primary
+@Component("da")
 public class DataAnalysis implements Activity {
 
 	@Override
