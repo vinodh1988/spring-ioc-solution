@@ -4,12 +4,13 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DataCleaning implements Activity {
+@Primary
+public class DataAnalysis implements Activity {
 
 	@Override
 	public void perform() {
 		// TODO Auto-generated method stub
-            System.out.println("DataCleaning activity");
+        System.out.println("Data analysis being done");
 	}
 
 }
